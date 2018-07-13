@@ -139,7 +139,7 @@
         
         NSDecimalNumber *amount = [NSDecimalNumber decimalNumberWithDecimal:[[item objectForKey:@"amount"] decimalValue]];
         
-        PKPaymentSummaryItem *newItem = [PKPaymentSummaryItem summaryItemWithLabel:label amount:amount PKPaymentSummaryItemType:PKPaymentSummaryItemTypePending];
+        PKPaymentSummaryItem *newItem = [PKPaymentSummaryItem summaryItemWithLabel:label amount:amount type:PKPaymentSummaryItemTypePending];
         
         [items addObject:newItem];
     }
