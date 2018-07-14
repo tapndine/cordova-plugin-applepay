@@ -11,7 +11,7 @@
     
     // Set these to the payment cards accepted.
     // They will nearly always be the same.
-    supportedPaymentNetworks = @[PKPaymentNetworkVisa, PKPaymentNetworkMasterCard, PKPaymentNetworkAmex];
+    supportedPaymentNetworks = @[PKPaymentNetworkVisa, PKPaymentNetworkMasterCard, PKPaymentNetworkAmex, PKPaymentNetworkInterac, PKPaymentNetworkDiscover];
     
     // Set the capabilities that your merchant supports
     // Adyen for example, only supports the 3DS one.
